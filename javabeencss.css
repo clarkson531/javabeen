@@ -1,0 +1,49 @@
+@charset "utf-8";
+@media(min-width:320px)
+
+{nav 
+	
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-right: 25px;
+
+}
+	header nav ul {
+	list-style: none;
+	float: left;
+}
+nav ul li {
+	float: left;
+	color: #000000;
+	font-size: 18px;
+	text-align: center;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #2C9AB7;
+	
+}
+@media(min-width:480px)
+{
+	
+}
+@media(min-width:768px)
+{
+	
+}
+@media(min-width:1024px)
+{
+	
+}
+@media(min-width:1200px)
+{
+	
+}
