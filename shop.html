@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initail-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Java Been Coffee Shop</title>
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+	
+</head>
+
+<body>
+		
+	<div class="sidebar">
+		<div class="top">
+			<div class="logo">
+				<i class='bx bxl-java'></i>
+				<span>Java Been</span>
+			</div>
+			<i class='bx bx-menu' id="btn"></i>
+			</div>
+	
+	<ul>
+		<li>
+			<a href="index.html">
+			<span class="nav-item">Home</span>
+			</a>
+		</li>
+		<li>
+			<a href="menu.html">
+			<span class="nav-item">Menu</span>
+			</a>
+		</li>
+		<li>
+			<a href="about.html">
+			<span class="nav-item">About</span>
+			</a>
+		</li>
+		<li>
+			<a href="contact.html">
+			<span class="nav-item">Contact</span>
+			</a>
+		</li>
+		<li>
+			<a href="shop.html">
+			<span class="nav-item">Shop</span>
+			</a>
+		</li>
+		<li>
+			<a href="locations.html">
+			<span class="nav-item">Locations</span>
+			</a>
+		</li>
+
+	</ul>
+
+	</div>
+
+<div class="main-content">
+	<div class="container">
+		<h1> Shop our Beens</h1>
+	</div>
+</div>
+</body>
+<script>
+let btn =document.querySelector('#btn');
+let sidebar = document.querySelector('.sidebar');
+btn.onclick = function() {
+	sidebar.classList.toggle('active');
+};
+</script>
+	</header>
+</body>
+</html>
